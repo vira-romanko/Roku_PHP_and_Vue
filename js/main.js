@@ -2,7 +2,11 @@ import router from "./components/Router.js";
 
 (() => {
     const myVM = new Vue({
-        router
+        router,
+
+        data:{
+            username: "foo"
+        }
         
     }).$mount("#app");
 })();

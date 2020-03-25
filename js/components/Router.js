@@ -3,7 +3,7 @@ import HomeComponent from "./TheHomePage.js"
 
 const routes = [
     { path: "/", name: "splash", component: SplashComponent },
-    { path: "/home", name: "home", component: HomeComponent, props: true }
+    { path: "/home", name: "home", component: HomeComponent }
 ]
 
 const router = new VueRouter({
