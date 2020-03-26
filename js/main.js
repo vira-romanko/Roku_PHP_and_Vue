@@ -5,7 +5,14 @@ import router from "./components/Router.js";
         router,
 
         data:{
-            username: "foo"
+            user:{
+
+                username: "foo",
+                admin: 1,
+                avatar: "olaf"
+
+            }
+            
         }
         
     }).$mount("#app");
